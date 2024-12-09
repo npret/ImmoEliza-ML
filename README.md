@@ -51,7 +51,7 @@ To run the project, follow these steps:
    ```
 3. **Train and evaluate the model**:
    ```bash
-   python rf_pipeline.py
+   python main.py
    ```
 4. **Visualize Results**:
    Visualizations are already saved in Visuals folder.
