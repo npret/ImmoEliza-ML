@@ -35,8 +35,8 @@ The main dependencies include:
 - pandas
 - numpy
 - scikit-learn
-- matplotlib
-- seaborn
+- typing
+- time
 
 ## Usage
 To run the project, follow these steps:
@@ -49,21 +49,19 @@ To run the project, follow these steps:
    ```bash
    cd ImmoEliza-ML
    ```
-3. **Run the preprocessing script**:
+3. **Train and evaluate the model**:
    ```bash
-   python preprocess_data.py
+   python rf_pipeline.py
    ```
-4. **Train and evaluate the model**:
-   ```bash
-   python train_model.py
-   ```
-5. **Visualize Results**:
-   Visualizations will be saved in the `visuals/` directory.
+4. **Visualize Results**:
+   Visualizations are already saved in Visuals folder.
 
 ## Visuals
 This project includes several visualizations of the data exploration and model performance:
 - **Feature Correlation Heatmap**: Helps identify which features to remove based on multicollinearity.
 - **Model Performance Plots**: Comparison of actual vs predicted prices, which are helpful to assess the model's accuracy.
+- **Single Tree Plot**: Visualize one (of 300) tree.
+- **Various**: Other plots and graphs to help understand the data during preprocessing.
 
 ## Contributors
 This project is a solo challenge:
